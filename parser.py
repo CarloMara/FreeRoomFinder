@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import datetime
 
 from scraper import Scraper
@@ -23,6 +24,9 @@ for room in data:
     if room.is_free(now) :
         # print(room.name)
         free_room.append(room)
+
+
+print("AULE LIBERE ALLE ORE:   " + str(now.time().hour) + ":" + str(now.time().minute))
 
 
 for room in free_room:
