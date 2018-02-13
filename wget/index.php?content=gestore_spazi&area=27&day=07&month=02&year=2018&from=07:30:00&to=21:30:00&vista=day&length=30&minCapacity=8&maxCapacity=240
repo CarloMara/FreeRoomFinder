@@ -1,0 +1,1790 @@
+
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--	<meta name='robots' content='noindex' /> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!--	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />-->
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+	<meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
+	<meta http-equiv="cache-control" content="post-check=0, pre-check=0, FALSE" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="expires" content="Thu, 01 Jan 1970 00:00:00 GMT" />
+	<META NAME="GOOGLEBOT" CONTENT="NOARCHIVE">
+
+	<title>EasyRoom - Università degli Studi di Padova</title>
+
+	<link rel="shortcut icon" type="images/x-icon" href="images/favicon.ico" />
+	<link rel="icon" type="images/x-icon" href="images/favicon.ico" />
+	<link href="css/main.css?858212163" rel="stylesheet" type="text/css" media="all" />
+	<link href='Orario/css/font-awesome.css' rel='stylesheet' type='text/css' media="all">
+	<link href="css/luna.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/printer.css?1356421255" rel="stylesheet" type="text/css" media="print" />
+	<link  href="css/pageH.css" rel="stylesheet" type="text/css" media="print"/>
+	<link  href="css/menu_jquery.css?247398462" rel="stylesheet" type="text/css" media="all"/>
+
+	<!-- jquery -->
+	<script type='text/javascript' src='scripts/jquery-1.8.2.min.js'></script>
+	<script type='text/javascript' src='scripts/popup.js'></script>
+	<script type="text/javascript" src="scripts/common.js"></script>
+	
+
+	<!--<script type="text/javascript" src="scripts/disableF5.fjs"></script>-->
+	<!-- jquery menu -->
+	<script type='text/javascript' src='scripts/menu-superfish.js'></script>
+	<script type='text/javascript' src='scripts/menu-hoverIntent.js'></script>
+	<script type='text/javascript' src='scripts/menu-initialise.js'></script>
+	
+	<!-- modalbox -->
+	<script type='text/javascript' src='scripts/fade.js'></script>
+	<script type='text/javascript' src='scripts/modalbox.js'></script>
+	<!-- htmlArea -->
+	<script type="text/javascript" src="scripts/jHtmlArea-0.7.5.js"></script>
+	<link rel="stylesheet" href="css/jHtmlArea.css" />
+
+	<script type="text/javascript" src="scripts/jHtmlArea.ColorPickerMenu-0.7.0.min.js"></script>
+	<link rel="stylesheet" href="css/jHtmlArea.ColorPickerMenu.css" />
+
+	<style type="text/css">
+
+	.loginLink {
+		color:#9B0014;
+	}
+	.loginLink a {
+		color:#9B0014;
+		text-decoration:none;
+	}
+	.loginLink a:hover {
+		text-decoration:underline;
+	}
+	
+	/* ### MENU ### */
+	/*menu gradient*/
+	TD.menu{
+		background:#9B0014;
+		background: -webkit-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -moz-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -o-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -ms-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: linear-gradient(top, #870000 0%, #af1428 100%);
+
+		border: 1px solid #969696;
+		-webkit-border: 1px solid #969696;
+		-moz-border: .5px solid #969696;
+		-ms-border: .5px solid #969696;
+		-o-border: .5px solid #969696;
+		border-bottom: 0;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.sf-menu li:hover, .sf-menu li.sfHover,
+	.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+		/*background:    #CFDEFF;*/
+
+		background:   #af1428;
+		/*Gradient*/
+
+		background: -webkit-linear-gradient(top, #af1428 0%, #c3283c 100%);
+		background: -moz-linear-gradient(top, #af1428 0%, #c3283c 100%);
+		background: -o-linear-gradient(top, #af1428 0%, #c3283c 100%);
+		background: -ms-linear-gradient(top, #af1428 0%, #c3283c 100%);
+		background: linear-gradient(top, #af1428 0%, #c3283c 100%);
+		outline:    0;
+		color:#FFFFFF !important;
+	}
+	.sf-menu a, .sf-menu a:visited{
+		color:#9B0014;
+	} 	
+	.sf-menu a, sf-menu a:visited {
+		border: 1px solid #969696;
+		-webkit-border: 1px solid #969696;
+		-moz-border: .5px solid #969696;
+		-ms-border: .5px solid #969696;
+		-o-border: .5px solid #969696;
+		margin-top:-1px;
+	}
+	.sf-menu li li > a{
+		margin-left:-1px;
+	}
+	
+	/* ### GENERAL PAGES ### */
+	/*tables gradient*/
+	TABLE.tblchk TH,.header_form {
+		border-width:0px;
+		border-bottom:1px dotted #C0C0C0;
+		background-color:#9B0014;
+		/*Gradient*/
+		background: -webkit-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -moz-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -o-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -ms-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: linear-gradient(top, #690000 0%, #af1428 100%);
+		color: #FFFFFF;
+		vertical-align:center;
+	}
+	
+	.sub_header_form{
+		color: #9B0014;
+		border-color: #9B0014;
+	}
+	
+	.modalBox .boxHeader {
+		background-color:#9B0014;
+		/*Gradient*/
+		background: -webkit-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -moz-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -o-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -ms-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: linear-gradient(top, #690000 0%, #af1428 100%);
+	}
+	
+	.header_left, .header_right
+	{
+		background-color:#9B0014;
+		/*Gradient*/
+		background: -webkit-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -moz-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -o-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: -ms-linear-gradient(top, #870000 0%, #af1428 100%);
+		background: linear-gradient(top, #690000 0%, #af1428 100%);
+	}
+	
+	.details_action > div > b > a
+	{
+		color:#CC0000;	
+	}
+
+	/* borders */
+	TD.home {
+		background-color: #FFFFFF;
+		border:1px solid;
+		border-left:1px solid;
+		border-right:1px solid;
+		border-color:#969696;
+	}
+	TD.footer {
+		background-color:#FFFFFF;
+		color:#CC0000;
+		border-left:1px solid;
+		border-right:1px solid;
+		border-bottom:1px solid;
+		border-color:#969696;
+	}
+	
+	.footer {
+		padding:3px;
+		font-size: 12px;
+		color:#CC0000;
+	}
+
+	.footer a {color : #CC0000; text-decoration: underline; outline: none;}
+	.footer a:visited {color : #CC0000; text-decoration: underline; outline: none;}
+	.footer a:active {color : #CC0000; text-decoration: underline; outline: none;}
+	.footer a:hover {color :#900000; text-decoration: underline; outline: none;}
+
+	/* home link color */
+	.intro_links a{
+		color:#CC0000;
+	}
+	
+	.book
+	{
+		color:#CC0000;
+	}
+	
+	
+	TD.logout{
+		border-left: 1px solid #969696;
+		-webkit-border-left: 1px solid #969696;
+		-moz-border-left: .5px solid #969696;
+		-ms-border-left: .5px solid #969696;
+		-o-border-left: .5px solid #969696;
+	}
+
+	</style>
+
+<!--	<script type='text/javascript'> -->
+	<script type="text/javascript">
+	//<![CDATA[
+			function stopRKey(evt) {
+			var evt = (evt) ? evt : ((event) ? event : null);
+			var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+			if ((evt.keyCode == 13) && (node.type=="text"))  {return false;}
+		}
+	
+		document.onkeypress = stopRKey;
+
+		function disable_f5(e)
+		{
+			if ((e.which || e.keyCode) == 116)
+			{
+				alert('Attenzione: questo sistema NON consente\nil refresh della pagina tramite il tasto F5');
+				e.preventDefault();
+			}
+		}
+
+		$(document).ready(function(){
+			$(document).bind("keydown", disable_f5);
+		});
+	function changePrintLayout(layout)
+	{
+		var xmlHttp;
+
+		if (window.XMLHttpRequest)     // Firefox, Safari, ...
+			xmlHttp = new XMLHttpRequest();
+		else if (window.ActiveXObject)   // ActiveX version
+			xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");    // Internet Explorer
+
+		
+		var url = "printChangeLayout.php?id="+layout;
+		xmlHttp.open("GET", url, true);
+		xmlHttp.onreadystatechange = function()
+		{
+			if (xmlHttp.readyState == 4)
+			{
+				window.location = '';
+			}
+		};
+		xmlHttp.send(null);
+	}
+
+	var open_info = '-';
+	var open_op = '-';
+	var effect = 'appear';
+	function printPopup(idEntry, h, which_popup, grid_type, page_element, align)
+	{
+		id = which_popup+"_"+idEntry+"_"+h;
+		closeOpenPopup(open_op);
+		if (id == open_info)
+		{
+			if(align == 'SX')
+				showPopupAlignSX(which_popup, idEntry, h, effect);
+			else
+				showPopupAlignDX(which_popup, idEntry, h, effect);
+		}
+		else
+		{
+			var xmlHttp;
+			
+			if (window.XMLHttpRequest)     // Firefox, Safari, ...
+				xmlHttp = new XMLHttpRequest();
+			else if (window.ActiveXObject)   // ActiveX version
+				xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");    // Internet Explorer
+		
+			var url = "printPopup.php";
+			var params = "id="+idEntry+"&h="+h+"&which="+which_popup+"&vista="+grid_type+"&_lang=it&location_pathname="+encodeURIComponent(location.pathname)+"&location_search="+encodeURIComponent(location.search);
+
+			xmlHttp.open("GET", url+"?"+params, true);
+			/*xmlHttp.open("POST", url, true);
+			xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+			xmlHttp.setRequestHeader("Content-length", params.length);
+			xmlHttp.setRequestHeader("Connection", "close");*/
+
+			xmlHttp.onreadystatechange = function()
+			{
+				if (xmlHttp.readyState == 4)
+				{
+					var operations_html = xmlHttp.responseText;
+					document.getElementById(page_element).innerHTML = operations_html;
+					// if(which_popup == 'id_agenda')
+						// showPopupAlignSX(which_popup, idEntry, h, effect);
+					// else
+						// showPopupAlignDX(which_popup, idEntry, h, effect);
+					if(align == 'SX')
+						showPopupAlignSX(which_popup, idEntry, h, effect);
+					else
+						showPopupAlignDX(which_popup, idEntry, h, effect);
+					open_info = id;
+				}
+			};
+			xmlHttp.send(null); // POST: params);
+		}
+	}
+
+	function syncronizePopup(prefix, i, h, eff)
+	{
+		id = prefix+"_"+i+"_"+h;
+
+		closeOpenPopup(open_info);
+		if (id == open_op)
+			showPopupAlignDX(prefix, i, h, eff);
+		else
+		{
+			closeOpenPopup(open_op);
+			showPopupAlignDX(prefix, i, h, eff);
+		}
+
+		open_op = id;
+	}
+
+	function closeOpenPopup(open_box)
+	{
+		if (open_box != '-')
+			document.getElementById(open_box).style.display = 'none';
+	}
+
+	function showDynamicEventPopup(which_popup, tableID, i, h, effect, link, page_element)
+	{
+		id = which_popup+"_"+tableID+"_"+i+"_"+h;
+		closeOpenPopup(open_op);
+		if (id == open_info)
+			showEventPopup(which_popup, tableID, i, h, effect);
+		else
+		{
+			var xmlHttp;
+				
+			if (window.XMLHttpRequest)     // Firefox, Safari, ...
+				xmlHttp = new XMLHttpRequest();
+			else if (window.ActiveXObject)   // ActiveX version
+				xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");    // Internet Explorer
+	
+			var url = "printPopup.php?id="+i+"&h="+h+"&which="+which_popup+"&vista="+tableID+"&url="+link+"&_lang=it";
+			xmlHttp.open("GET", url, true);
+			xmlHttp.onreadystatechange = function()
+			{
+				if (xmlHttp.readyState == 4)
+				{
+					var operations_html = xmlHttp.responseText;
+			
+					document.getElementById(page_element).innerHTML = operations_html;
+					showEventPopup(which_popup, tableID, i, h, effect)
+					open_info = id;
+				}
+			};
+			xmlHttp.send(null);
+		}
+	}
+	
+	function reservationQuickAdd()
+	{
+		var xmlHttp;
+
+		if (window.XMLHttpRequest)     // Firefox, Safari, ...
+			xmlHttp = new XMLHttpRequest();
+		else if (window.ActiveXObject)   // ActiveX version
+			xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");    // Internet Explorer
+
+		reservation_entry_type = document.getElementById('quick[entry_type]').value;
+		if (reservation_entry_type == 0)
+		{
+			alert('Seleziona il tipo di prenotazione');
+			return;
+		}
+		
+		reservation_title = document.getElementById('quick[name]').value;
+		if (reservation_title == '')
+		{
+			alert('Inserisci un titolo per la prenotazione');
+			return;
+		}
+
+		reservation_room = document.getElementById('quick[room]').value;
+		reservation_day = document.getElementById('quick[day]').innerHTML;
+		reservation_from = document.getElementById('quick[from]').value;
+		reservation_to = document.getElementById('quick[to]').value;
+		//alert(reservation_entry_type+" "+reservation_title+" "+reservation_room+" "+reservation_day+" "+reservation_from+" "+reservation_to);
+
+		var url = "printQuickAdd.php?";
+		url += "entry_type="+reservation_entry_type;
+		url += "&name="+reservation_title;
+		url += "&room="+reservation_room;
+		url += "&day="+reservation_day;
+		url += "&from_time="+reservation_from;
+		url += "&to_time="+reservation_to;
+		url += "&_lang=it";
+		
+		xmlHttp.open("GET", url, true);
+		xmlHttp.onreadystatechange = function()
+		{
+			if (xmlHttp.readyState == 4)
+			{
+				//var exit_status = xmlHttp.responseText;
+				xmlDoc = xmlHttp.responseXML;
+				var exit_status = xmlDoc.getElementsByTagName('ExitStatus')[0].firstChild.nodeValue;
+				if (exit_status == 0)
+				{
+					var message = xmlDoc.getElementsByTagName('Message')[0].firstChild.nodeValue;
+					alert(message);
+				}
+				else
+				{
+					var message = xmlDoc.getElementsByTagName('Message')[0].firstChild.nodeValue;
+					alert(message);
+					window.location = '/Aule//index.php?content=gestore_spazi&area=27&day=07&month=02&year=2018&from=07:30:00&to=21:30:00&vista=day&length=30&minCapacity=8&maxCapacity=240';
+				}
+			}
+		};
+		xmlHttp.send(null);
+	}
+
+	function reservationQuickEdit()
+	{
+		var xmlHttp;
+
+		if (window.XMLHttpRequest)     // Firefox, Safari, ...
+			xmlHttp = new XMLHttpRequest();
+		else if (window.ActiveXObject)   // ActiveX version
+			xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");    // Internet Explorer
+
+		reservation_id = document.getElementById('quick[entry_id]').value;
+		reservation_entry_type = document.getElementById('quick[entry_type]').value;
+		if (reservation_entry_type == 0)
+		{
+			alert('Seleziona il tipo di prenotazione');
+			return;
+		}
+
+		reservation_title = document.getElementById('quick[name]').value;
+		if (reservation_title == '')
+		{
+			alert('Inserisci un titolo per la prenotazione');
+			return;
+		}
+
+		reservation_room = document.getElementById('quick[room]').value;
+		reservation_day = document.getElementById('quick[day]').innerHTML;
+		reservation_from = document.getElementById('quick[from]').value;
+		reservation_to = document.getElementById('quick[to]').value;
+		//alert(reservation_id+" "+reservation_entry_type+" "+reservation_title+" "+reservation_room+" "+reservation_day+" "+reservation_from+" "+reservation_to);
+
+		var url = "printQuickEdit.php?";
+		url += "id="+reservation_id;
+		url += "&entry_type="+reservation_entry_type;
+		url += "&name="+reservation_title;
+		url += "&room="+reservation_room;
+		url += "&day="+reservation_day;
+		url += "&from_time="+reservation_from;
+		url += "&to_time="+reservation_to;
+		url += "&_lang=it";
+		
+		xmlHttp.open("GET", url, true);
+		xmlHttp.onreadystatechange = function()
+		{
+			if (xmlHttp.readyState == 4)
+			{
+				//var exit_status = xmlHttp.responseText;
+				xmlDoc = xmlHttp.responseXML;
+				var exit_status = xmlDoc.getElementsByTagName('ExitStatus')[0].firstChild.nodeValue;
+				if (exit_status == 0)
+				{
+					var message = xmlDoc.getElementsByTagName('Message')[0].firstChild.nodeValue;
+					alert(message);
+				}
+				else
+				{
+					var message = xmlDoc.getElementsByTagName('Message')[0].firstChild.nodeValue;
+					alert(message);
+					window.location = '/Aule//index.php?content=gestore_spazi&area=27&day=07&month=02&year=2018&from=07:30:00&to=21:30:00&vista=day&length=30&minCapacity=8&maxCapacity=240';
+				}
+			}
+		};
+		xmlHttp.send(null);
+	}
+
+	function manageNotes(op_type)
+	{
+		var xmlHttp;
+
+		if (window.XMLHttpRequest)     // Firefox, Safari, ...
+			xmlHttp = new XMLHttpRequest();
+		else if (window.ActiveXObject)   // ActiveX version
+			xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");    // Internet Explorer
+
+		reservation_id = document.getElementById('manage_notes[entry_id]').value;
+
+		reservation_notes = document.getElementById('manage_notes[text]').value;
+		
+		var url = "manageNotes.php?";
+		url += "id="+reservation_id;
+		url += "&operation="+op_type;
+		url += "&notes="+reservation_notes.replace(/\n/g, "<br/>");
+		url += "&_lang=it";
+		
+		xmlHttp.open("GET", url, true);
+		xmlHttp.onreadystatechange = function()
+		{
+			if (xmlHttp.readyState == 4)
+			{
+				//var exit_status = xmlHttp.responseText;
+				xmlDoc = xmlHttp.responseXML;
+				var exit_status = xmlDoc.getElementsByTagName('ExitStatus')[0].firstChild.nodeValue;
+				if (exit_status == 0)
+				{
+					var message = xmlDoc.getElementsByTagName('Message')[0].firstChild.nodeValue;
+					alert(message);
+				}
+				else
+				{
+					var message = xmlDoc.getElementsByTagName('Message')[0].firstChild.nodeValue;
+					alert(message);
+					window.location = '/Aule//index.php?content=gestore_spazi&area=27&day=07&month=02&year=2018&from=07:30:00&to=21:30:00&vista=day&length=30&minCapacity=8&maxCapacity=240';
+				}
+			}
+		};
+		xmlHttp.send(null);
+	}
+
+	<!-- script altezza iframe-->
+
+	  var loaded = false;
+	  function iframeLoaded() {
+		  var iFrameID = document.getElementById('listafile');
+		  var container = document.getElementById('helpSelector');
+		  if(iFrameID && loaded) {
+				iFrameID.width = container.offsetWidth + "px";
+				iFrameID.height = "";
+				iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+				$("#helpLoad").css({"display": "none"});
+		  }   
+	  }
+	<!-- jQuery comparsa popup help -->
+		function mostraPopup(id){
+				$("#black").css({
+					"visibility": "visible",
+					"opacity": "0.5",
+					"z-index": "3"});
+				$(id).css({
+					"visibility": "visible",
+					"opacity": "1",
+					"z-index": "3"});
+		}
+		function nascondiPopup(){
+				$("#black").css({
+					"visibility": "hidden",
+					"opacity": "0",
+					"z-index": "-1"});
+				$("#helpSelector").css({
+					"visibility": "hidden",
+					"opacity": "0",
+					"z-index": "-1"});
+				$("#bloccoPopup").css({
+					"visibility": "hidden",
+					"opacity": "0",
+					"z-index": "-1"});
+				$("#cercaParola").css({
+					"visibility": "hidden",
+					"opacity": "0",
+					"z-index": "-1"});
+		}
+		//carica iframe
+		function loadIframe(){
+			$('#listafile').attr('src','linguettaHelp.php?_lang=it');
+			loaded = true;
+		}
+		//controllo popup blocker
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) === false) { //controllo mobile
+			if (document.cookie.replace(/(?:(?:^|.*;\s*)popupBlock\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") { //controllo cookie
+				 setTimeout( function() {
+					var popup = window.open("popupcheck.html","controllo popup","width=100, height=100",false);
+					if(!popup || popup.outerHeight == 0) {
+						//alert("Blocco popup attivato! Aggiungi il sito alla lista delle eccezioni");
+						mostraPopup("#bloccoPopup");
+					} else {
+						//chiudi finestra
+						popup.close();
+						//imposta valore cookie 
+						document.cookie = "popupBlock=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+					} 
+				}, 25);
+			}
+		}
+		
+	//]]>
+	</script>
+</head>
+
+<body onload="if(self.storeSettings) storeSettings(true);" bgcolor="#F6F6F6">
+<!-- codice linguetta help -->
+		<div id="black" onclick="nascondiPopup();"></div>
+		<div id="helpSelector" class="popupmsg">
+			<div class="popupHead">
+				Ti serve aiuto?				<a href="#"  style="float:right;" onclick="nascondiPopup(); return false;"><img class="chiudiHelp" src="images/chiudiHelp.png" /></a>
+			</div>
+			<div id="helpLoad">
+				<img src="images/loading-help.gif" />
+			</div>
+			<iframe id="listafile" frameborder="0" height="0" onload="iframeLoaded();"></iframe>
+		</div>
+		<div id="bloccoPopup" class="popupmsg">
+			<div class="popupHead">
+				Attenzione: hai attivato il blocco pop-up su questa pagina				<a href="#"  style="float:right;" onclick="nascondiPopup(); return false;"><img class="chiudiHelp" src="images/chiudiHelp.png" /></a>
+			</div>
+			<div id="popupBody">
+				Per abilitare i pop-up ti chiediamo gentilmente di fare riferimento alle indicazioni presenti nei seguenti link: <br/>
+				<ul>
+					<li><a href="http://windows.microsoft.com/it-IT/windows-vista/Internet-Explorer-Pop-up-Blocker-frequently-asked-questions?49f6a180">Internet Explorer: guida per attivare i pop-up</a></li>
+					<li><a href="https://support.mozilla.org/it/kb/Controllare%20le%20finestre%20pop-up#w_impostazioni-per-il-blocco-delle-finestre-pop-up">Mozilla Firefox: guida per attivare i pop-up</a></li>
+					<li><a href="https://support.google.com/chrome/answer/95472?hl=it">Google Chrome: guida per attivare i pop-up</a></li>
+					<li><a href="https://support.apple.com/kb/PH17209?locale=it_IT&viewlocale=it_IT">Safari: guida per attivare i pop-up</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="helpLbl" onclick="loadIframe(); mostraPopup('#helpSelector');">Ti serve aiuto?</div>
+<!-- fine codice linguetta help -->
+	<script type="text/javascript">disableRight();</script>
+
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="top" height="1">&nbsp;</td>
+			<td valign="bottom" class="bordo_bottom">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0" class="screen">
+					<tr>
+						<td  align="left" valign="bottom" width="500" class="title_sw" rowspan="4">
+							<a class='img' href='/Aule//index.php'><img src='images/headerLogo.jpg' alt='Logo' title='Torna alla home page' /></a>
+						</td>
+						
+						<td colspan="2" align="right" class="title_user">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="right" class="title_user" style="color:#9B0014;">
+<a href="logout.php" style="color:#9B0014;">Vai alla pagina di autenticazione</a>						</td>
+					</tr>
+					<tr>
+						<td colspan='2' align="right" class="title_user">
+&nbsp;						</td>
+					</tr>
+
+
+					<tr height="50">
+						<td align="right" valign="bottom" class="title_sw" style="color:#9B0014;">
+							Sistema di gestione delle aule						</td>
+
+						<td align="right" valign="bottom" width="150">
+							<a class="img" href="/Aule//index.php?content=gestore_spazi&area=27&day=07&month=02&year=2018&from=07:30:00&to=21:30:00&vista=day&length=30&minCapacity=8&maxCapacity=240&_lang=en"><img alt="english" src="images/lang_1.jpg" title="english version"/></a> <a class="img" href="/Aule//index.php?content=gestore_spazi&area=27&day=07&month=02&year=2018&from=07:30:00&to=21:30:00&vista=day&length=30&minCapacity=8&maxCapacity=240&_lang=it"><img alt="italiano" src="images/lang_0.jpg" title="versione italiana"/></a> <a class="img" href="/Aule//index.php?content=gestore_spazi&area=27&day=07&month=02&year=2018&from=07:30:00&to=21:30:00&vista=day&length=30&minCapacity=8&maxCapacity=240&_lang=es"><img alt="espaÃ±ol" src="images/lang_4.jpg" title="versión en español"/></a>						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td colspan="2" align="right" class="boxRicerca">
+							<script type="text/javascript">
+							function RedirectRicerca(keyword){
+																window.location.replace('/Aule//index.php?content=gestore_report&DataInizio=1518044400&DataFine=1577833199&cercaRipetizione=-1&cercaChiave'+'='+keyword);
+							}
+							
+							function gestisciSearchBox(){
+								if($('#search').is(":hidden")){
+									//mostra textbox ricercate
+									$('#search').fadeIn(800);
+								}else{
+									//genera testo e mostra popup
+									generaTesto();
+								}
+							}
+							
+							function generaTesto(){
+								var keyword = $('#search').val();
+								if(keyword.length <3){
+									$('#cercaParola span').text("La parola chiave deve contenere almeno 3 caratteri!");
+									$("#btnCerca").hide();
+								}else{
+									// keyword= "<span style='color:#FF0000; font-size:15px;'>'"+keyword+"'</span>";
+									keyword= "<span style='font-weight: bold; font-style: italic; color: #000000; font-size:15px;'>'"+keyword+"'</span>";
+									$("#btnCerca").show();
+																		// $('#cercaParola span').html("Verranno ricercate le prenotazioni che contengono nel titolo, nella descrizione o nel docente la parola chiave "+keyword+" nel periodo 08/02/2018 - 31/12/2019");
+									$('#cercaParola span').html("Ricerca delle prenotazioni che contengono la parola chiave<br/> "+keyword+" <br/>nelle sezioni Codice prenotazione, Titolo prenotazione, Descrizione completa e Utilizzatori<br/>nel periodo <span style='font-weight: bold; font-style: italic; color: #000000; font-size:15px;'>08/02/2018 - 31/12/2019</span>");
+								}
+								mostraPopup('#cercaParola');
+							}
+							
+							function intercettaInvio(event){
+								var k = event.which || event.keyCode;
+								if (k == 13) //se il tasto premuto Ã¨ invio
+									generaTesto();
+							}
+							</script>
+							<div id="cercaParola" class="popupmsg">
+								<span id="testoRicerca"></span>
+								<br/>
+								<input type="button" name="annulla" id="btnAnnulla" style="margin-top: 5px;" value="Annulla" onclick="nascondiPopup();" />
+								<input type="button" name="search" id="btnCerca" value="Cerca" onclick="RedirectRicerca($('#search').val());" />
+							</div>
+							<input type="text" class="txtRicerca" id="search" placeholder="Cerca" onkeypress="intercettaInvio(event);"/>
+							<a href="#" onclick="gestisciSearchBox();" class="imgRicerca"><img src="images/general_search.png" /></a>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td valign="top" height="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="menu">
+							<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr><td>
+							
+<ul class="sf-menu" id="menu">
+<li><a class="top" href="index.php?content=gestore_aree_pubblico&parentID=0&entryID=1">Visiona aule</a></li>
+<li><a class="top" href="index.php?content=view_prenotazioni&vista=day&area=11&parentID=0&entryID=85">Visiona prenotazioni</a></li>
+<li><a class="top" href="#">Visualizza impegni studente</a><ul><li><a href="#">Visualizzazione settimanale</a><ul><li><a href="index.php?content=view_curricula&vediFacolta=1&parentID=89&entryID=90">Scuola di Agraria e Medicina Veterinaria</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=2&parentID=89&entryID=91">Scuola di Giurisprudenza</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=3&parentID=89&entryID=92">Scuola di Psicologia</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=4&parentID=89&entryID=93">Scienze Umane - Scuola</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=5&parentID=89&entryID=94">Scienze Umane - FISPPA</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=6&parentID=89&entryID=95">Scienze Umane - DISSGEA</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=7&parentID=89&entryID=96">Dipartimento SPGI - Padova</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=8&parentID=89&entryID=97">Dipartimento Geoscienze</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=9&parentID=89&entryID=98">Dipartimento Scienze chimiche</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=10&parentID=89&entryID=99">Ingegneria Padova - Scuola</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=11&parentID=89&entryID=100">Ingegneria Vicenza - DTG</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=12&parentID=89&entryID=101">Dipartimento Scienze statistiche</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=13&parentID=89&entryID=102">Dipartimento SPGI - Rovigo</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=15&parentID=89&entryID=103">Dipartimento Scienze Economiche e Aziendali</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=16&parentID=89&entryID=104">Scuola di Medicina e Chirurgia - Sedi di Padova</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=17&parentID=89&entryID=105">Biologia</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=18&parentID=89&entryID=106">Matematica</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=19&parentID=89&entryID=107">Dipartimento di Fisica</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=20&parentID=89&entryID=108">Dipartimento di Astronomia</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=21&parentID=89&entryID=109">Scienze Umane - FISPPA - Padova</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=22&parentID=89&entryID=110">Scienze Umane - FISPPA - Rovigo</a></li>
+<li><a href="index.php?content=view_curricula&vediFacolta=23&parentID=89&entryID=111">Dipartimento di Scienze del Farmaco</a></li>
+	</ul>
+</li>
+<li><a href="#">Visualizzazione periodo</a><ul><li><a href="index.php?content=view_curricula_month&vediFacolta=1&parentID=127&entryID=128">Scuola di Agraria e Medicina Veterinaria</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=2&parentID=127&entryID=129">Scuola di Giurisprudenza</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=3&parentID=127&entryID=130">Scuola di Psicologia</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=4&parentID=127&entryID=131">Scienze Umane - Scuola</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=5&parentID=127&entryID=132">Scienze Umane - FISPPA</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=6&parentID=127&entryID=133">Scienze Umane - DISSGEA</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=7&parentID=127&entryID=134">Dipartimento SPGI - Padova</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=8&parentID=127&entryID=135">Dipartimento Geoscienze</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=9&parentID=127&entryID=136">Dipartimento Scienze chimiche</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=10&parentID=127&entryID=137">Ingegneria Padova - Scuola</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=11&parentID=127&entryID=138">Ingegneria Vicenza - DTG</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=12&parentID=127&entryID=139">Dipartimento Scienze statistiche</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=13&parentID=127&entryID=140">Dipartimento SPGI - Rovigo</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=15&parentID=127&entryID=141">Dipartimento Scienze Economiche e Aziendali</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=16&parentID=127&entryID=142">Scuola di Medicina e Chirurgia - Sedi di Padova</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=17&parentID=127&entryID=143">Biologia</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=18&parentID=127&entryID=144">Matematica</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=19&parentID=127&entryID=145">Dipartimento di Fisica</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=20&parentID=127&entryID=146">Dipartimento di Astronomia</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=21&parentID=127&entryID=147">Scienze Umane - FISPPA - Padova</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=22&parentID=127&entryID=148">Scienze Umane - FISPPA - Rovigo</a></li>
+<li><a href="index.php?content=view_curricula_month&vediFacolta=23&parentID=127&entryID=149">Dipartimento di Scienze del Farmaco</a></li>
+	</ul>
+</li>
+	</ul>
+</li>
+<li><a class="top" href="#">Reportistica</a><ul><li><a href="index.php?content=gestore_spazi&parentID=178&entryID=187">Ricerca aule libere</a></li>
+	</ul>
+</li>
+</ul>
+						</td>
+						</tr>
+						</table>
+					</tr>
+				</table>
+			</td>
+			
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td height="600">&nbsp;</td>
+			<td width="1300" height="1" valign="top" class="home">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td>&nbsp;</td>
+
+						<td align="center" valign="top">
+							<table width="100%" border="0" align="center" cellpadding="2" cellspacing="0">
+									<tr class="screen">
+									<td colspan="2">&nbsp;</td>
+								</tr>
+								<tr class="screen">
+									<td class="title">Ricerca aule libere</td>
+									<td class="title" width="25px">
+											</td>
+								</tr>
+									<tr class="screen">
+									<td colspan="2">&nbsp;</td>
+								</tr>
+								<tr>
+
+									<td align="center" colspan="2">
+<script type="text/javascript">
+<!--
+//	JS strings
+	var l_lang = "it_IT";
+	var l_sel_date = "Seleziona la Data";
+	var l_not_allowed = "Questa data non è consentita di essere selezionata";
+	var l_date_before = "Scegli una data prima %s";
+	var l_date_after = "Scegli una data dopo %s";
+	var l_date_between = "Scegli una data tra\n%s e %s";
+	var l_err_noset = "Errore! I dati del calendario non possono essere impostati!";
+	var l_use_ymd_drop = "0";
+	var l_day = "Giorno";
+	var l_month = "Mese";
+	var l_year = "Anno";
+	var l_ref_cal = "Aggiornamento Calendario...";
+	//Digitizer
+	var l_arabic = "Arabic Digits";
+	var l_utf_digit = 0;
+//	Long Month Names
+	var l_january = "gennaio";
+	var l_february = "febbraio";
+	var l_march = "marzo";
+	var l_april = "aprile";
+	var l_may = "maggio";
+	var l_june = "giugno";
+	var l_july = "luglio";
+	var l_august = "agosto";
+	var l_september = "settembre";
+	var l_october = "ottobre";
+	var l_november = "novembre";
+	var l_december = "dicembre";
+	var l_genitive = 0;
+//	Short Month Names
+	var s_jan = "gen";
+	var s_feb = "feb";
+	var s_mar = "mar";
+	var s_apr = "apr";
+	var s_may = "mag";
+	var s_jun = "giu";
+	var s_jul = "lug";
+	var s_aug = "ago";
+	var s_sep = "set";
+	var s_oct = "ott";
+	var s_nov = "nov";
+	var s_dec = "dic";
+//	Long Day Names
+	var l_monday = "lunedì";
+	var l_tuesday = "martedì";
+	var l_wednesday = "mercoledì";
+	var l_thursday = "giovedì";
+	var l_friday = "venerdì";
+	var l_saturday = "sabato";
+	var l_sunday = "domenica";
+//	Short Day Names
+	var s_mon = "lun";
+	var s_tue = "mar";
+	var s_wed = "mer";
+	var s_thu = "gio";
+	var s_fri = "ven";
+	var s_sat = "sab";
+	var s_sun = "dom";
+// -->
+</script>
+<script type="text/javascript" src="calendar/calendar.js"></script>
+
+<table class="ds_box" cellpadding="0" cellspacing="0" id="ds_conclass" style="display: none;">
+<tr><td id="ds_calclass">
+</td></tr>
+</table>
+
+<script type='text/javascript' src='scripts/calendarForm.js'></script>
+<script type='text/javascript' src='scripts/datePickerForm.js'></script>
+<script type="text/javascript">
+//<![CDATA[
+
+function download_script(nome, path, flag)
+{
+	var browser=navigator.appName;
+	var b_version=navigator.appVersion;
+	var u_agent= navigator.userAgent;
+
+	var indexV = b_version.indexOf('MSIE 7');
+	var indexA = u_agent.indexOf('MSIE 7');
+
+	var lang = '';
+	if(indexV != -1 || indexA != -1){
+		if(lang)
+			link_name= 'link_download.php?nameFile='+nome+'&pathFile='+path+'&deleteFile='+flag+'&_lang='+lang;
+		else
+			link_name= 'link_download.php?nameFile='+nome+'&pathFile='+path+'&deleteFile='+flag;
+
+		window.open(link_name, null, 'height=200,width=400');
+	}
+	else{
+		link_name= 'download_file.php?nameFile='+nome+'&pathFile='+path+'&deleteFile='+flag;
+		window.open(link_name);
+	}
+
+	return true;
+}
+
+function checkDate(form)
+{
+	
+	var dataInizio	= (document.getElementById('DataInizio').value).split("-");
+	var dataFine	= (document.getElementById('DataFine').value).split("-");
+	
+	// if((! isCorrectDate(form.elements['DataInizio[d]'].value, form.elements['DataInizio[M]'].value, form.elements['DataInizio[Y]'].value)) || (! isCorrectDate(form.elements['DataFine[d]'].value, form.elements['DataFine[M]'].value, form.elements['DataFine[Y]'].value)) )
+	if((! isCorrectDate(dataInizio[2], dataInizio[1], dataInizio[0])) || (! isCorrectDate(dataFine[2], dataFine[1], dataFine[0])) )
+	{
+		msg =	"Il formato della data non è valido:" + "\n" +
+				" - controlla il numero di giorni del mese selezionato" + "\n" +
+				" - controlla gli anni bisestili";
+
+		alert(msg);
+		return false;
+	}
+	
+	// DateS= new Date(form.elements['DataInizio[Y]'].value, form.elements['DataInizio[M]'].value, form.elements['DataInizio[d]'].value);
+	// DateE= new Date(form.elements['DataFine[Y]'].value, form.elements['DataFine[M]'].value, form.elements['DataFine[d]'].value);
+	DateS= new Date(dataInizio[0], parseInt(dataInizio[1])-1, dataInizio[2]);
+	DateE= new Date(dataFine[0], parseInt(dataFine[1])-1, dataFine[2]);
+
+	if(DateS > DateE){
+		msg = "La data di inzio deve essere inferiore alla data di fine.";
+		alert(msg);
+		return false;
+	}
+	//aule occupate
+	//se è settato "visualizza aule occupate" ed è stata inserita una durata minima, avviso che questa non verrà considerata
+	if(form.elements['AuleOccupate'].checked && form.elements['Durata'].value!=""){
+		msg = "Con la spunta su Visualizza aule occupate non viene considerato il parametro Durata minima.";
+		alert(msg);
+	}
+
+	return true;
+}
+
+function addHiddenInput(input_name, val, form){
+	var input = document.createElement('input');
+	input.type = 'hidden';
+	input.name = input_name;
+    input.value = val;
+    form.appendChild(input);
+}
+
+
+</script>
+
+
+<form action="/Aule//index.php?content=gestore_spazi" method="post" name="viewForm" id="viewForm" target="_self">
+<div>
+<table border="0">
+
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<a href='/Aule//index.php?content=view_prenotazioni&amp;area=27&amp;day=07&amp;month=02&amp;year=2018&amp;vista=day'>&lt;&lt; Indietro</a></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Ae - area POLO DIDATTICO DI VIA GRADENIGO - capienza 209</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>10:00</td>
+		<td>2 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=176&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=5&amp;area=27&amp;room=176&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>13:00</td>
+		<td>21:30</td>
+		<td>8 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=176&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=11&amp;endslice=28&amp;area=27&amp;room=176&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Be - area POLO DIDATTICO DI VIA GRADENIGO - capienza 220</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=165&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=165&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>14:00</td>
+		<td>21:30</td>
+		<td>7 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=165&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=13&amp;endslice=28&amp;area=27&amp;room=165&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Ce - area POLO DIDATTICO DI VIA GRADENIGO - capienza 140</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>10:00</td>
+		<td>2 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=180&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=5&amp;area=27&amp;room=180&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>13:00</td>
+		<td>21:30</td>
+		<td>8 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=180&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=11&amp;endslice=28&amp;area=27&amp;room=180&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula De - area POLO DIDATTICO DI VIA GRADENIGO - capienza 140</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=179&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=179&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>12:00</td>
+		<td>13:30</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=179&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=9&amp;endslice=12&amp;area=27&amp;room=179&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>16:30</td>
+		<td>21:30</td>
+		<td>5 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=179&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=18&amp;endslice=28&amp;area=27&amp;room=179&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Ee - area POLO DIDATTICO DI VIA GRADENIGO - capienza 80</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=174&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=174&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>13:00</td>
+		<td>14:00</td>
+		<td>1 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=174&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=11&amp;endslice=13&amp;area=27&amp;room=174&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>17:30</td>
+		<td>21:30</td>
+		<td>4 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=174&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=20&amp;endslice=28&amp;area=27&amp;room=174&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Fe - area POLO DIDATTICO DI VIA GRADENIGO - capienza 36</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=175&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=175&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>13:30</td>
+		<td>14:30</td>
+		<td>1 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=175&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=12&amp;endslice=14&amp;area=27&amp;room=175&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>16:30</td>
+		<td>21:30</td>
+		<td>5 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=175&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=18&amp;endslice=28&amp;area=27&amp;room=175&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Ke - area POLO DIDATTICO DI VIA GRADENIGO - capienza 240</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=177&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=177&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>17:30</td>
+		<td>21:30</td>
+		<td>4 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=177&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=20&amp;endslice=28&amp;area=27&amp;room=177&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Le - area POLO DIDATTICO DI VIA GRADENIGO - capienza 140</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=178&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=178&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>16:00</td>
+		<td>21:30</td>
+		<td>5 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=178&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=17&amp;endslice=28&amp;area=27&amp;room=178&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Me - area POLO DIDATTICO DI VIA GRADENIGO - capienza 96</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=170&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=170&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>14:00</td>
+		<td>15:00</td>
+		<td>1 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=170&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=13&amp;endslice=15&amp;area=27&amp;room=170&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>18:00</td>
+		<td>21:30</td>
+		<td>3 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=170&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=21&amp;endslice=28&amp;area=27&amp;room=170&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Ne - area POLO DIDATTICO DI VIA GRADENIGO - capienza 27</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>10:00</td>
+		<td>2 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=171&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=5&amp;area=27&amp;room=171&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>12:00</td>
+		<td>15:00</td>
+		<td>3 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=171&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=9&amp;endslice=15&amp;area=27&amp;room=171&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>16:30</td>
+		<td>21:30</td>
+		<td>5 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=171&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=18&amp;endslice=28&amp;area=27&amp;room=171&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Oe - area POLO DIDATTICO DI VIA GRADENIGO - capienza 42</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=173&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=173&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>13:00</td>
+		<td>14:00</td>
+		<td>1 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=173&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=11&amp;endslice=13&amp;area=27&amp;room=173&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>17:00</td>
+		<td>21:30</td>
+		<td>4 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=173&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=19&amp;endslice=28&amp;area=27&amp;room=173&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Pe - area POLO DIDATTICO DI VIA GRADENIGO - capienza 35</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=172&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=172&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>18:00</td>
+		<td>21:30</td>
+		<td>3 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=172&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=21&amp;endslice=28&amp;area=27&amp;room=172&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Ve - area POLO DIDATTICO DI VIA GRADENIGO - capienza 240</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>09:00</td>
+		<td>1 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=167&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=3&amp;area=27&amp;room=167&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>14:00</td>
+		<td>21:30</td>
+		<td>7 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=167&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=13&amp;endslice=28&amp;area=27&amp;room=167&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Te - area POLO DIDATTICO DI VIA GRADENIGO - capienza 41</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>10:00</td>
+		<td>2 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=163&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=5&amp;area=27&amp;room=163&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>13:00</td>
+		<td>21:30</td>
+		<td>8 ore, 30 minuti</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=163&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=11&amp;endslice=28&amp;area=27&amp;room=163&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Ue - area POLO DIDATTICO DI VIA GRADENIGO - capienza 41</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>21:30</td>
+		<td>14 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=162&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=28&amp;area=27&amp;room=162&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula RIUNIONI DEI/G 318 - area POLO DIDATTICO DI VIA GRADENIGO - capienza 60</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>21:30</td>
+		<td>14 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=166&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=28&amp;area=27&amp;room=166&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula RIUNIONI DEI/G 406 - area POLO DIDATTICO DI VIA GRADENIGO - capienza 8</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>21:30</td>
+		<td>14 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=164&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=28&amp;area=27&amp;room=164&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Sala riunioni - area POLO DIDATTICO DI VIA GRADENIGO - capienza 26</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>21:30</td>
+		<td>14 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=161&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=28&amp;area=27&amp;room=161&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula SALA MERIGLIANO - area POLO DIDATTICO DI VIA GRADENIGO - capienza 35</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>21:30</td>
+		<td>14 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=169&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=28&amp;area=27&amp;room=169&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula SALETTA VERDE - area POLO DIDATTICO DI VIA GRADENIGO - capienza 10</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>21:30</td>
+		<td>14 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=168&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=28&amp;area=27&amp;room=168&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<table class="tblchk" width="100%" cellpadding="3" border="1" cellspacing="0">
+	<caption style="font-size: 13px; font-weight: bold;">Aula Saletta Gialla - area POLO DIDATTICO DI VIA GRADENIGO - capienza 15</caption>
+	<tr>
+		<th width="30"><span style= 'font-weight: bold;'>&nbsp;</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Giorno</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora inizio</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ora fine</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Ore libere</span></th>
+		<th width="200"><span style= 'font-weight: bold;'>Griglia</span></th>
+		<th width="100"><span style= 'font-weight: bold;'>Prenota aula</span></th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>mercoledì 07-02-2018</td>
+		<td>07:30</td>
+		<td>21:30</td>
+		<td>14 ore</td>
+		<td><a href='/Aule//index.php?content=view_prenotazioni&amp;vista=day&amp;area=27&amp;day=07&month=02&year=2018' target='_blank'>giornata</a>&nbsp;/&nbsp;<a href='/Aule//index.php?content=view_prenotazioni&amp;vista=week&amp;area=27&amp;room=1007&day=07&month=02&year=2018' target='_blank'>settimana</a></td>
+		<td><a href='/Aule//index.php?content=gestore_add_entry&amp;slice=0&amp;endslice=28&amp;area=27&amp;room=1007&day=07&amp;month=02&amp;year=2018&amp;hideEAform=1' target='_blank'>&gt;&gt;</a></td>
+	</tr>
+</table>
+</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	&nbsp;</td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<a href='/Aule//index.php?content=view_prenotazioni&amp;area=27&amp;day=07&amp;month=02&amp;year=2018&amp;vista=day'>&lt;&lt; Indietro</a></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="DataInizio"   value="2018-02-07"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="DataFine" 	  value="2018-02-07"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="OraInizio" 	  value="07:30:00"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="OraFine" 	  value="21:30:00"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="MaskSett" 	  value="N;"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="Area" 	      value="a:1:{i:0;s:2:"27";}"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="valueMin"     value="8"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="valueMax"     value="240"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="Durata"       value="30"></td>	<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>	<td width= 90% align="center">	<input type="hidden" name="AuleOccupate" value=""></td>	<td>&nbsp;</td>
+	</tr>
+</table>
+</div>
+</form>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td>&nbsp;</td>
+					</tr>
+				</table>
+			</td>
+
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td>&nbsp;</td>
+			<td height="1" bgcolor="#9999CC" class="footer">
+				<table width="100%" border="0" align="center" cellpadding="2" cellspacing="0">
+					<tr style="line-height: 22px;">
+						<td align="left">
+							<div align="left" class="footer">EasyRoom 2.89-2016 - 
+							<a class="helptxt" href="#" onclick="loadIframe(); mostraPopup('#helpSelector'); return false;">Ti serve aiuto?</a>
+							</div>
+						</td>
+						<td align="right">
+							<div align="right" class="footer">Powered by <a href='http://www.easystaff.it/' target='_blank'>EasyStaff</a></div>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+
+</body>
+</html>
