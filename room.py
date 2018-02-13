@@ -7,6 +7,7 @@ class Room(object):
     def __init__(self, name):
         self.name = name
         self.timetable = []
+        self.free_slot = None
 
     def print_stuff(self):
         print(self.name)
@@ -20,6 +21,7 @@ class Room(object):
     def is_free(self, now):
         for _ in self.timetable:
             if _.is_free(now):
+                self.free_slot = _
                 return True
 
         return False
